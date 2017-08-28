@@ -1,0 +1,27 @@
+---
+title: "Forsøg med at bruge Rvest"
+author: "Robert Klemmensen"
+date: "14/8/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, sætter WD og loader Libs}
+library(rvest)
+library(tidyverse)
+
+setwd("~/Dropbox/git/test_scraping")
+```
+
+```{r}
+
+url <- "https://www.b.dk/debat/groft-sagt"
+
+## hvordan laver høster jeg dem alle?
+
+```
+
+
